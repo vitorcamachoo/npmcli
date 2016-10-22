@@ -1,0 +1,15 @@
+{
+  "name": "npm-cli",
+  "version": "0.0.1",
+  "description": "This module offer a set of helpers to apply over an node application.",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/vitorcamachoo/npm-cli",
+    "type": "git"
+  },
+  "author": "vitorcamachoo",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "1.2.2"
+  }
+}
