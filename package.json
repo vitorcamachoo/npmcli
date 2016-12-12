@@ -1,6 +1,6 @@
 {
     "name": "npmcli",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Tool to show all availble scripts and run one of them.",
     "main": "index.js",
     "scripts": {
@@ -9,7 +9,7 @@
         "yarn:help": "yarn --help",
         "clean": "rm -rf dist/",
         "create:dist": "mkdir dist",
-        "copy:dist": "cp -r src/ index.js package.json README.md dist/",
+        "copy:dist": "cp -r src/* index.js package.json README.md dist/",
         "transpile": "babel dist -d dist",
         "build": "npm-run-all -s clean create:dist copy:dist transpile",
         "start": "cross-env NODE_ENV=production dist/index.js -x npm run build",
