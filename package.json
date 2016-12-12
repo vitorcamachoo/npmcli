@@ -48,6 +48,7 @@
         "babel-plugin-module-resolver": "2.3.0",
         "babel-plugin-transform-object-rest-spread": "6.16.0",
         "babel-preset-latest": "6.16.0",
-        "babel-register": "6.16.3"
+        "babel-register": "6.16.3",
+        "npm-run-all": "3.1.2"
     }
 }
