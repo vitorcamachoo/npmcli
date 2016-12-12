@@ -1,7 +1,7 @@
 npmcli
 =========
 [![npm version](https://badge.fury.io/js/npmcli.svg)](https://badge.fury.io/js/npmcli)
-[![Dependency Status](https://img.shields.io/david/vitorcamachoo/npm-cli.svg)](https://david-dm.org/vitorcamachoo/npm-cli)
+[![Dependency Status](https://img.shields.io/david/vitorcamachoo/npmcli.svg)](https://david-dm.org/vitorcamachoo/npmcli)
 [![npm](https://img.shields.io/npm/dm/npmcli.svg?maxAge=2592000)]()
 
 > Show all available scripts present in package.json and run one of them.
@@ -24,7 +24,6 @@ $ npmcli
 ```
 
 ### Note
-You can choose moving with with keyboard arrows 
+You can choose moving with with keyboard arrows
 or
 Inserting the number of the option
-

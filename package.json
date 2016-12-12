@@ -1,6 +1,6 @@
 {
     "name": "npmcli",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "Tool to show all availble scripts and run one of them.",
     "main": "index.js",
     "scripts": {
@@ -16,7 +16,7 @@
         "publish:dist": "npm run build && npm publish dist/"
     },
     "repository": {
-        "url": "https://github.com/vitorcamachoo/npm-cli",
+        "url": "https://github.com/vitorcamachoo/npmcli",
         "type": "git"
     },
     "author": {
@@ -48,7 +48,6 @@
         "babel-plugin-module-resolver": "2.3.0",
         "babel-plugin-transform-object-rest-spread": "6.16.0",
         "babel-preset-latest": "6.16.0",
-        "babel-register": "6.16.3",
-        "nodemon": "1.11.0"
+        "babel-register": "6.16.3"
     }
 }
