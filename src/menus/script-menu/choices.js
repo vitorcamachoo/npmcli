@@ -1,4 +1,4 @@
-import packageJson from 'helper/package';
+import packageJson from '../../helper/package';
 const { scripts } = packageJson;
 
 export const choices = Object

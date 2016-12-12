@@ -2,11 +2,11 @@ import { join } from 'path';
 import { curry } from 'ramda';
 import { prompt } from 'inquirer';
 
-import menuSkeleton from 'menus.json';
-import { root, menus } from 'helper/paths';
-import { runner } from 'helper/runner';
-import { executeScript } from 'helper/cmd';
-import { selectedChoice, loadSelectedModule } from 'helper/menu';
+import menuSkeleton from '../menus.json';
+import { root, menus } from '../helper/paths';
+import { runner } from '../helper/runner';
+import { executeScript } from '../helper/cmd';
+import { selectedChoice, loadSelectedModule } from '../helper/menu';
 
 export const start = (MODULE) => {
 	const { name } = !MODULE ? menuSkeleton[0] : { name: MODULE };

@@ -1,5 +1,5 @@
 import { join } from 'path';
-import { menus } from 'helper/paths';
+import { menus } from './paths';
 
 export const selectedChoice = (choices) => (answer) =>
 	choices.filter(({ handler, value }) => answer === value)[0];
