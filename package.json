@@ -1,6 +1,6 @@
 {
     "name": "npmcli",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "description": "Tool to show all availble scripts and run one of them.",
     "main": "index.js",
     "scripts": {
