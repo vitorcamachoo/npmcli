@@ -15,6 +15,10 @@
         "start": "cross-env NODE_ENV=production dist/index.js -x npm run build",
         "publish:dist": "npm run build && npm publish dist/"
     },
+    "bin": {
+      "nc": "./index.js",
+      "npmcli": "./index.js"
+    },
     "repository": {
         "url": "https://github.com/vitorcamachoo/npmcli",
         "type": "git"
