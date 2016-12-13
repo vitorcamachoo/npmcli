@@ -20,6 +20,8 @@ $ npm install --save --global npmcli
 ## Usage
 Simple run the following command and choose one of the available options.
 ```
+$ nc
+or
 $ npmcli
 ```
 
