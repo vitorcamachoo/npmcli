@@ -1,5 +1,7 @@
 npmcli
 =========
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/vitorcamachoo/npmcli.svg)](https://greenkeeper.io/)
 [![npm version](https://badge.fury.io/js/npmcli.svg)](https://badge.fury.io/js/npmcli)
 [![Dependency Status](https://img.shields.io/david/vitorcamachoo/npmcli.svg)](https://david-dm.org/vitorcamachoo/npmcli)
 [![npm](https://img.shields.io/npm/dm/npmcli.svg?maxAge=2592000)]()
