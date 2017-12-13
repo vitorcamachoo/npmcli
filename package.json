@@ -44,15 +44,15 @@
     "preferGlobal": true,
     "license": "MIT",
     "dependencies": {
-        "inquirer": "1.2.2",
-        "ramda": "0.22.1"
+        "inquirer": "4.0.1",
+        "ramda": "0.25.0"
     },
     "devDependencies": {
-        "babel-cli": "6.18.0",
-        "babel-plugin-module-resolver": "2.3.0",
-        "babel-plugin-transform-object-rest-spread": "6.16.0",
-        "babel-preset-latest": "6.16.0",
-        "babel-register": "6.16.3",
-        "npm-run-all": "3.1.2"
+        "babel-cli": "6.26.0",
+        "babel-plugin-module-resolver": "3.0.0",
+        "babel-plugin-transform-object-rest-spread": "6.26.0",
+        "babel-preset-latest": "6.24.1",
+        "babel-register": "6.26.0",
+        "npm-run-all": "4.1.2"
     }
 }
